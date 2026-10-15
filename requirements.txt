@@ -1,0 +1,7 @@
+# TikiDownloader-Client 依赖包
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+pillow>=9.0.0  # 用于处理图像和显示用户头像
+# 可选依赖，用于高级功能
+# lxml>=4.6.0  # 使用lxml解析器可提高性能
+# selenium>=4.0.0  # 用于浏览器自动化
