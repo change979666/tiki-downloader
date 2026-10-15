@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller build outputs (TikiDownloader.spec)
+build/
+dist/
+*.spec.bak
+
+# Runtime cache / downloads (avatars, downloaded videos)
+avatar_cache/
+cache/
+downloads/
+*.log
+
+# OS / editor
+Thumbs.db
+.DS_Store
