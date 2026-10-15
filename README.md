@@ -16,8 +16,8 @@ TikiDownloader-Client 是一个独立的桌面应用程序，旨在为用户提�
 
 ### 方法一：直接下载可执行文件（推荐）
 
-1. 从[发布页面](https://github.com/yourusername/TikiDownloader-Client/releases)下载最新版本的`TikiDownloaderClient.exe`
-2. 双击运行，无需安装
+1. 查看[本仓库 Releases 页面](https://github.com/change979666/tiki-downloader/releases)是否有已发布的可执行文件。
+2. 如果没有可用的 Release，请使用下面的源码运行或打包步骤；仓库当前不保证始终提供预编译 EXE。
 
 ### 方法二：从源码运行
 
@@ -60,7 +60,7 @@ TikiDownloader-Client 是一个独立的桌面应用程序，旨在为用户提�
    ```
 2. 执行打包命令：
    ```
-   pyinstaller --name TikiDownloaderClient --onefile --windowed --icon=app_icon.ico main.py
+   pyinstaller TikiDownloader.spec
    ```
 3. 打包完成后，可执行文件将位于`dist`目录中
 
@@ -79,4 +79,4 @@ TikiDownloader-Client 是一个独立的桌面应用程序，旨在为用户提�
 
 ## 许可证
 
-[MIT License](LICENSE)
+当前仓库未包含独立的 `LICENSE` 文件；如计划允许他人复用或分发，请先确认版权并添加明确许可证。
