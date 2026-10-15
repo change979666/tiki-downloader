@@ -77,6 +77,12 @@ TikiDownloader-Client 是一个独立的桌面应用程序，旨在为用户提�
 - Requests (HTTP通信)
 - BeautifulSoup4 (HTML解析)
 
-## 许可证
+## License & Attribution / 许可与来源
 
-当前仓库未包含独立的 `LICENSE` 文件；如计划允许他人复用或分发，请先确认版权并添加明确许可证。
+Original project code authored for this repository is released under the MIT License; see [LICENSE](./LICENSE).
+
+When reusing or redistributing a substantial portion, retain the LICENSE and its copyright notice. The copyright notice includes this original source URL: https://github.com/change979666/tiki-downloader. Please keep the source link visible in your redistributed source or project documentation.
+
+This license applies only to original material that the repository maintainer has the right to license. Third-party libraries, vendor code, platform SDKs, trademarks, screenshots, icons, fonts, and other external assets remain subject to their respective licenses and terms. Review those terms before reuse.
+
+**Project status:** personal/archived project, shared as-is. Maintenance, compatibility, and production readiness are not guaranteed.
